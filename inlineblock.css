@@ -1,0 +1,55 @@
+.red{
+    color: red;
+}
+.green{
+    background-color: green;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.instructor{
+    height: 55px;
+    width: 35px;
+    display: inline-block;
+}
+
+.instructor{
+    position: relative;
+    top: 11px;
+}
+
+.star{
+    height: 35px;
+    width: 35px;
+}
+
+button{
+    margin-left: 5px;
+    background-color: yellow;
+    border: yellow;
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 140px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.font-size{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom:7px;
+}
+
+.big-image{
+    height: 230px;
+    width: 390px;
+    margin-top: 7px;
+    border-radius: 25px;
+    margin-left: 2px;
+}

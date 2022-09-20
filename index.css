@@ -1,0 +1,21 @@
+.nav{
+    background-color: yellow;
+}
+.big-image{
+    height: 110px;
+}
+.rating-image{
+    height: 20px;
+    margin-top: 5px;
+}
+.blanket{
+    width: 190px;
+}
+h3{
+    margin-left: 10px;
+}
+b{
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
