@@ -1,6 +1,6 @@
 .nav-full{
     background-color: rgb(35, 10, 10);
-    border-radius: 25px;
+    
 }
 
 .nav-full li{
@@ -35,11 +35,25 @@ input{
     margin-bottom: -7px;
     margin-left: -23px;
 }
+.background-img-text{
+    font-stretch: expanded;
+    position: relative;
+    margin-top: -700px;
+    left: 500px;
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+h2{
+    margin-top: -450px;
+}
 
 
 
 
 .page2-container{
+    margin-top: 600px;
     display: flex;
    position: relative;
 }
@@ -51,10 +65,18 @@ input{
     margin-top: 5px;
 }
 .blanket{
-    width: 190px;
-    padding-right: 10px;
-    margin-top: 50px;
+    width: 300px;
+    padding-right: 30px;
+    margin-top: -400px;
    
+}
+.img-btn{
+    margin-top: -500px;
+    color: white;
+    background-color: green;
+    padding: 5px 15px 5px 15px;
+    font-size: 25px;
+    border-radius: 25px;
 }
 h3{
     margin-left: 10px;
