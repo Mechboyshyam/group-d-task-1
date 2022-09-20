@@ -1,6 +1,9 @@
 .nav{
     background-color: yellow;
 }
+.page2-container{
+   
+}
 .big-image{
     height: 110px;
 }
@@ -14,8 +17,24 @@
 h3{
     margin-left: 10px;
 }
-b{
+.price{
     margin-left: 10px;
+    color: red;
     position: relative;
     bottom: 5px;
 }
+.buy{
+    border: none;
+    background-color: tomato;
+    font-size: 15px;
+    padding: 5px 62px 5px 62px;
+     border: 1px solid black;
+}
+.cart{
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: orange;
+    padding: 5px 55px 5px 55px;
+}
+
