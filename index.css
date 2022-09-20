@@ -1,8 +1,29 @@
-.nav{
-    background-color: yellow;
+.nav-full{
+    background-color: black;
 }
+
+.nav-full li{
+    float: left;
+    list-style: none;
+    padding: 13px 20px;
+    
+}
+
+ul{
+    overflow: auto;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
 .page2-container{
-   
+    display: flex;
+   position: relative;
 }
 .big-image{
     height: 110px;
@@ -13,6 +34,9 @@
 }
 .blanket{
     width: 190px;
+    padding-right: 10px;
+    margin-top: 50px;
+   
 }
 h3{
     margin-left: 10px;
@@ -36,5 +60,11 @@ h3{
     font-size: 15px;
     background-color: orange;
     padding: 5px 55px 5px 55px;
+}
+.background-img{
+    background: linear-gradient(rgba(9, 1, 1, 0.6),rgba(9, 1, 1, 0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_8_vfqsfWuBFns6v8_cqziwBO6APzO-mlVw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
