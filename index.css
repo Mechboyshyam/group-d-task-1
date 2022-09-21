@@ -10,10 +10,16 @@
     
    
 }
+.ftr{
+    float: left;
+    list-style: none;
+    padding: 26px 30px;
+}
 
 ul{
     overflow: auto;
     display: flex;
+    justify-content: space-around;
 }
 
 .a{
@@ -38,7 +44,7 @@ input{
 .background-img-text{
     font-stretch: expanded;
     position: relative;
-    margin-top: -700px;
+    margin-top: -660px;
     left: 500px;
     color: white;
     font-size: 55px;
@@ -46,7 +52,7 @@ input{
     font-weight: bolder;
 }
 h2{
-    margin-top: -450px;
+    margin-top: -350px;
 }
 
 
@@ -56,6 +62,7 @@ h2{
     margin-top: 600px;
     display: flex;
    position: relative;
+   justify-content: space-between;
 }
 .big-image{
     height: 110px;
@@ -65,10 +72,10 @@ h2{
     margin-top: 5px;
 }
 .blanket{
-    width: 300px;
-    padding-right: 30px;
-    margin-top: -400px;
-   
+    width: 200px;
+    padding-right: 0px;
+    margin-top: -300px;
+
 }
 .img-btn{
     margin-top: -500px;
@@ -79,7 +86,7 @@ h2{
     border-radius: 25px;
 }
 h3{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .price{
     margin-left: 10px;
@@ -108,7 +115,11 @@ h3{
     width: 100%;
     margin-top: -36px;
 }
-@media screen and  {max-width: 600px;
-    
+.footer-txt{
+    color: black;
+    text-decoration: none;
 }
-
+footer{
+    background-color: rgba(0, 0, 0, 0.543);
+    font-weight: bold;
+}
